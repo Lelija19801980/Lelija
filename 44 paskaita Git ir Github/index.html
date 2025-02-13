@@ -35,6 +35,26 @@
 <section>Branch protection rules</section>
 <p>vienas svarbiausiu saku apsaugos taisykliu yra Pull Request (bandymas vienos sakos comit sukelti i kita saka) galima sukelti i kita saka (merge). taisykles viduje dar reiketu suteikti nustatyma, kuris reikalauja, kad nysodytas kiekis kitu projekto dalyviu patvirtintu ta request norint, kad sakos butu apjungtos.</p>
 <section> <!-- Papildoma info -->
+  <h2>Eiliškumas</h2>
+  <p>Apsiemiau uzduoti. kokie mano veiksmai?</p>
+  <ul>
+    <li>susikurti nauja saka - git branch naujaSaka</li>
+    <li>nueiti i susikurta saka - git checkout naujaSaka</li>
+    <li>atlieki uzduoti, kuria apsiemei daryti. su vienu arba keliais komitais.</li>
+    <ol>
+      <li>add pakitimus - git add .</li>
+      <li>comitini - git commit -m "zinute apie pakitimus"</li>
+      <li></li>
+    </ol>
+    <li>(kai jau uzduotis baigta) nueiti i main arba master saka - git checkout main/master</li>
+    <li>atnaujinti main/master saka - git pull</li>
+    <li>grizti i savo saka - git checkout naujaSaka</li>
+    <li>Sujungti savo saka su main/master ir ispresti galimai atsiradusius konfliktus - git merge main</li>
+    <li>nusiunti savo darbines sakos pakitimus i github - git push </li>
+    <li>Github sukurti Pull Request</li>
+    <li>Kiti komandos nariai patvirtina ar atmeta Pull Request</li>
+    <li>Jeigu Pull Request sulaukia pakankamai patvirtinimu - vykdyti merge. </li>
+  </ul>
     <h2>Papildoma info</h2>
     <ul>
       <li><a href="https://youtu.be/mJ-qvsxPHpY" target="_blank">Nick White</a></li>
